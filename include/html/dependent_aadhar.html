@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>STP | Developed By N3G</title>
+	
+	
+	<!-- slider files -->
+	
+	<link rel="stylesheet" type="text/css" href="css/slider.css" />
+    <script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'>
+	
+	<!-- end of slider files -->
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/dependent_aadhar.css"/>
+	
+</head>
+<body>
+	
+		
+		<div class="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<div class="navbar">
+							<div class="navbar-inner">
+								<a class="brand" href="index.html">State Tourism Portel <i class="icon-leaf"></i></a>
+								<ul class="nav">
+									<li><a href="index.html"><i class="icon-home"></i> Home</a></li>
+									<li><a href="about.html"><i class="icon-list-ul"></i> About</a></li>
+									<li><a href="instruction.html"><i class="icon-list-ul"></i> Instructions</a></li>
+									<li><a href="contact.html"><i class="icon-phone"></i> Contact</a></li>
+							
+									<li class="dropdown">
+										<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+											Places <b class="caret"></b>
+										</a>
+										<ul class="dropdown-menu">
+											<li><a href="banglore.html">Bangalore</a></li>
+											<li><a href="coorg.html">Coorg</a></li>
+											<li><a href="mysore.html">Mysore</a></li>
+											<li><a href="hampi.html">Hampi</a></li>
+											<li><a href="gokarna.html">Gokarna</a></li>
+											<li><a href="kodachadri.html">Kodachadri</a></li>
+										</ul>
+									</li>
+							
+								</ul>
+								
+							</div> <!-- end of navbar-inner tag-->
+						</div> <!-- end of nav bar tag-->
+					</div> <!-- end of span12 tag-->
+				</div> <!-- end of row tag-->
+		  </div> <!-- end of container tag-->
+</div> <!-- end of navigation tag-->
+
+
+<form method="post" action="dep_fnc.php">
+<div id="div1">	
+	
+  <p1 id="l1">  NAME </p1>
+  <input type="text" id="t1" name="fname" placeholder="       First Name">
+  <input type="text" id="t2" name="mname" placeholder="  M Name">
+  <input type="text" id="t3" name="lname" placeholder="       Last Name">
+  
+  <p1 id="l2">AGE</p1>
+  <input type="text" id="t4" name="age" >
+  
+  <p1 id="l3">GENDER</p1>
+  <p1 id="m">Male</p1>
+  <p1 id="f">Female</p1>
+  <input type="radio" id="r1" name="gender" value="ma">
+  &nbsp;
+  <input type="radio" id="r2"name="gender" value="fe">
+  
+  <p1 id="l4">AADHAR_NO</p1>
+  <input type="text" id="t5"name="aadhar" placeholder="Aadhar">
+  
+  <p1 id="l5">ADDRESS</p1>
+  <input type="text" id="t6"name="address" placeholder="Address">
+  
+  <p1 id="l6">PHONE</p1>
+  <input type="text" id="t7"name="phone" placeholder="">
+  
+  <p1 id="l7">HEALTH RATING</p1>
+  <p1 id="zero">0</p1>
+  <p1 id="one">1</p1>
+  <p1 id="two">2</p1>
+  <p1 id="three">3</p1>
+  
+  <input type="radio" id="p0" name="Choice" value="0">
+  &nbsp;
+  <input type="radio" id="p1"name="Choice" value="1">
+  &nbsp;&nbsp;
+  <input type="radio" id="p3" name="Choice" value="2">
+   <input type="radio" id="p2" name="Choice" value="3">
+  
+  
+  
+  <p1 id="l8">STATE</p1>
+ 
+  <input type="text" id="t9"name="state" placeholder="">
+  
+  <p1 id="extra0">YATRI DETAILS</p1>
+ 
+  
+  <p1 id="l9">RELATION</p1>
+  <input type="text" id="t10"name="relation" placeholder="">
+  
+  <p1 id="l10">NO OF PAST VISITS</p1>
+  <input type="text" id="t11"name="no_past_visits" placeholder="">
+
+ 
+  
+  <p1 id="l11">LAST VISIT </p1>
+  <input type="text" id="t12" name="last_visit" placeholder="Name">
+  
+  <p1 id="l12">PM AADHAR_NO</p1>
+  <input type="text" id="t13"name="pmaadhar" placeholder="Aadhar">
+  <input name="submit" id="b1" type="submit" value="Register Another Dependent">
+  </form>
+  <form method="post" action="Done.php">
+  <input name="submit2" id="b2" type="submit" value="Done">
+	</form>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery.cslider.js"></script>
+<script type="text/javascript">
+	$(function() {
+	
+		$('#da-slider').cslider({
+			autoplay	: true,
+			bgincrement	: 450
+		});
+	
+	});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,207 @@
+<?php
+session_start();
+if($_SESSION['uid']){
+header("Location:Error.php");
+}
+?>
+<!DOCTYPE HTML>
+<style>
+#abc{
+position:absolute;
+	background-attachment:fixed;
+	border:solid;
+	height:400px;
+	width:350px;
+	border:#99FF99;
+	left: 291px;
+	top: 130px;
+	background-color:#999999;
+}
+#abc1{
+position:absolute;
+	background-attachment:fixed;
+	border:solid;
+	height:400px;
+	width:350px;
+	border:#99FF99;
+	left: 732px;
+	top: 130px;
+	background-color:#999999;
+}
+#l1{
+	position:absolute;
+	width:50px;
+	height:25px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	left: 65px;
+	top: 91px;
+	color:#FFFFFF;	
+}
+#t1{
+	position:absolute;
+	width:193px;
+	height:25px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	left: 65px;
+	top: 128px;
+	
+}
+#l2{
+	position:absolute;
+	width:50px;
+	height:25px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	left: 65px;
+	top: 172px;
+	color:#FFFFFF;	
+}
+#t2{
+	position:absolute;
+	width:197px;
+	height:25px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	left: 65px;
+	top: 209px;
+	
+}
+#extra1{
+	position:absolute;
+	
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	width:200px;
+	font-weight:bold;
+	font-size:18px;
+	left: 82px;
+	top: 26px;	
+	font-size:18px;
+}
+#b1{
+	position:absolute;
+	width:95px;
+	height:36px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	left: 129px;
+	top: 299px;
+	
+}
+#b2{
+	position:absolute;
+	width:95px;
+	height:36px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	left: 182px;
+	top: 298px;
+	
+}
+#pp1{
+	position:absolute;
+	width:300px;
+	height:25px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	top: 552px;
+	left: 543px;
+}
+</style>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>STP | Developed By N3G</title>
+	
+	
+	<!-- slider files -->
+	
+	<link rel="stylesheet" type="text/css" href="css/slider.css" />
+    <script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'>
+	
+	<!-- end of slider files -->
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	
+<head>
+<body>
+
+<div class="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<div class="navbar">
+							<div class="navbar-inner">
+								<a class="brand" href="index.html">State Tourism Portal <i class="icon-leaf"></i></a>
+								<ul class="nav">
+									<li><a href="index.html"><i class="icon-home"></i> Home</a></li>
+									<li><a href="about.html"><i class="icon-list-ul"></i> About</a></li>
+									<li><a href="instruction.html"><i class="icon-list-ul"></i> Instructions</a></li>
+									<li><a href="contact.html"><i class="icon-phone"></i> Contact</a></li>
+							
+									<li class="dropdown">
+										<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+											Places <b class="caret"></b>
+										</a>
+										<ul class="dropdown-menu">
+											<li><a href="banglore.html">Bangalore</a></li>
+											<li><a href="coorg.html">Coorg</a></li>
+											<li><a href="mysore.html">Mysore</a></li>
+											<li><a href="hampi.html">Hampi</a></li>
+											<li><a href="gokarna.html">Gokarna</a></li>
+											<li><a href="kodachadri.html">Kodachadri</a></li>
+										</ul>
+									</li>
+							
+								</ul>
+								
+							</div> <!-- end of navbar-inner tag-->
+						</div> <!-- end of nav bar tag-->
+					</div> <!-- end of span12 tag-->
+				</div> <!-- end of row tag-->
+				</div> <!-- end of container tag-->
+			</div> <!-- end of navigation tag-->
+
+
+	
+
+	<div id="abc">	
+	 <p1 id="extra1">LOGIN AS ADMIN</p1>
+	 <form method="post" action="Admin_Auth.php">
+	 <p1 id="l1">Email</p1>
+	 <input type="text"  id= "t1" placeholder="Type here..." name="a_email">
+	 
+	 <p1 id="l2">Password</p1>
+	 <input type="password"  id= "t2" placeholder="Type here..." name="a_password"/>
+	 
+	 <input name="submit" id="b1" type="submit" value="Submit">
+	 </form>
+	</div>
+	
+	<div id="abc1">	
+		<p1 id="extra1">USER REGISTRATION</p1>
+	 	<p1 id="l1">Email</p1>
+		<form method="post" action="User_Auth.php">
+	 	<input type="text"  id= "t1" placeholder="Type here..." name="email"/>
+	 
+	 	<p1 id="l2">Password</p1>
+	 	<input type="password"  id= "t2" placeholder="Type here..." name="password"/>
+	 
+	 	<input name="submit" id="b1" type="submit" value="Submit">
+		</form>
+	 	
+	</div>
+	
+	<p1 id="pp1" style-"text-align: center;"> Don't have an account? <a href="signUp.html">Sign Up</a> </p1>
+	<br>
+	<br>
+	<br>
+	
+
+</body>
+</html>

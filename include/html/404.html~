@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>STP | Developed By N3G</title>
+	
+	
+	<!-- slider files -->
+	
+	<link rel="stylesheet" type="text/css" href="css/slider.css" />
+    <script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'>
+	
+	<!-- end of slider files -->
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	
+</head>
+<body>
+	
+		
+		<div class="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<div class="navbar">
+							<div class="navbar-inner">
+								<a class="brand" href="index.html">State Tourism Portel <i class="icon-leaf"></i></a>
+								<ul class="nav">
+									<li><a href="index.html"><i class="icon-home"></i> Home</a></li>
+									<li><a href="about.html"><i class="icon-list-ul"></i> About</a></li>
+									<li><a href="instruction.html"><i class="icon-list-ul"></i> Instructions</a></li>
+									<li><a href="contact.html"><i class="icon-phone"></i> Contact</a></li>
+							
+									<li class="dropdown">
+										<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+											Places <b class="caret"></b>
+										</a>
+										<ul class="dropdown-menu">
+											<li><a href="banglore.html">Bangalore</a></li>
+											<li><a href="coorg.html">Coorg</a></li>
+											<li><a href="mysore.html">Mysore</a></li>
+											<li><a href="hampi.html">Hampi</a></li>
+											<li><a href="gokarna.html">Gokarna</a></li>
+											<li><a href="kodachadri.html">Kodachadri</a></li>
+										</ul>
+									</li>
+							
+								</ul>
+								<ul class="nav pull-right">
+									<li><a href="signIn.html"><i class="icon-signin"></i> Sign In</a></li>
+									<li><a href="signUp.html"><i class="icon-edit"></i> Sign Up</a></li>
+								</ul>
+							</div> <!-- end of navbar-inner tag-->
+						</div> <!-- end of nav bar tag-->
+					</div> <!-- end of span12 tag-->
+				</div> <!-- end of row tag-->
+				</div> <!-- end of container tag-->
+			</div> <!-- end of navigation tag-->
+
+
+
+
+n tag-->
+
+
+
+
+	
+<div class="container">
+	
+	<div class="row">
+		<div class="span12 _404Heading">
+			
+			<h2>You found a dead link!</h2>
+			
+		</div> <!-- end of span12 tag-->
+		
+		<div class="span12 _404Link">
+			<i class="icon-link"></i>
+		</div>
+		
+		<div class="span12 _404Error">
+			404 Error <i class="icon-bolt"></i>
+		</div>
+		
+		<div class="span12 _404Home">
+			<h4>Go back <a href="index.html"> <i class="icon-home"></i> </a> or <a href="contact.html"> Report it. </a> </h4>
+		</div>
+		
+		
+	</div> <!-- end of row tag-->
+	
+	
+	
+	
+	<div class="row">
+		<div class="span12">
+			
+		</div> <!-- end of span12 tag-->
+	</div> <!-- end of row tag-->
+	
+	
+</div> <!-- end of container tag-->
+	
+	
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery.cslider.js"></script>
+<script type="text/javascript">
+	$(function() {
+	
+		$('#da-slider').cslider({
+			autoplay	: true,
+			bgincrement	: 450
+		});
+	
+	});
+	
+	
+</script>

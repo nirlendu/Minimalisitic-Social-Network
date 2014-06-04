@@ -1,0 +1,171 @@
+
+<!DOCTYPE HTML>
+<?php
+include 'Error.php'
+?>
+<style>
+#one1{
+	position:absolute;
+	width:50px;
+	height:25px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	left: 780px;
+	top: 37px;	
+	color:#FFFFFF;
+}
+#two2{
+	position:absolute;
+	width:50px;
+	height:25px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	left: 865px;
+	top: 37px;	
+	color:#FFFFFF;
+}
+#three3{
+	position:absolute;
+	width:50px;
+	height:25px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	left: 970px;
+	top: 37px;	
+	color:#FFFFFF;
+}
+</style>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>STP | Developed By N3G</title>
+	
+	
+	<!-- slider files -->
+	
+	<link rel="stylesheet" type="text/css" href="css/slider.css" />
+    <script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'>
+	
+	<!-- end of slider files -->
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/reg_prime_aadhar.css"/>
+	
+	<div class="navigation">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<div class="navbar">
+							<div class="navbar-inner">
+								<a class="brand" href="index.html">State Tourism Portal <i class="icon-leaf"></i></a>
+								<a  href="RedProfile.php" id="one1"> HOME </a>					
+								<a  href="Notifications.php" id="two2"> TIMELINE </a>	
+								<a  href="Logout.php" id="three3"> LOGOUT </a>										</div> 
+							<!-- end of navbar-inner tag-->
+						</div> <!-- end of nav bar tag-->
+					</div> <!-- end of span12 tag-->
+				</div> <!-- end of row tag-->
+		  </div> <!-- end of container tag-->
+</div> <!-- end of navigation tag-->
+
+	
+</head>
+<body>
+	
+		
+		
+
+<form method="post" action="try.php">
+	<div id="div1">	
+	
+  <p1 id="l1">  NAME </p1>
+  <input type="text" id="t1" name="fname" placeholder="       First Name">
+  <input type="text" id="t2" name="mname" placeholder="  M Name">
+  <input type="text" id="t3" name="lname" placeholder="       Last Name">
+  
+  <p1 id="l2">AGE</p1>
+  <input type="text" id="t4" name="age" >
+  
+  <p1 id="l3">GENDER</p1>
+  <p1 id="m">Male</p1>
+  <p1 id="f">Female</p1>
+  <input type="radio" id="r1" name="gender" value="ma">
+  &nbsp;
+  <input type="radio" id="r2"name="gender" value="fe">
+  
+  <p1 id="l4">AADHAR_NO</p1>
+  <input type="text" id="t5"name="pmaadhar" placeholder="Aadhar">
+  
+  <p1 id="l5">ADDRESS</p1>
+  <input type="text" id="t6"name="address" placeholder="Address">
+  
+  <p1 id="l6">PHONE</p1>
+  <input type="text" id="t7"name="phone" placeholder="">
+  
+  <p1 id="l7">HEALTH RATING</p1>
+   <p1 id="zero">0</p1>
+  <p1 id="one">1</p1>
+  <p1 id="two">2</p1>
+  <p1 id="three">3</p1>
+  
+  <input type="radio" id="p0" name="Choice" value="0">
+  &nbsp;
+  <input type="radio" id="p1"name="Choice" value="1">
+  &nbsp;&nbsp;
+  <input type="radio" id="p3"name="Choice" value="2" >
+   <input type="radio" id="p2" name="Choice" value="3">
+  
+  
+  <p1 id="l8">STATE</p1>
+  <input type="text" id="t9"name="state" placeholder="">
+  
+  <p1 id="extra0">YATRI DETAILS</p1>
+  <p1 id="extra1">JOURNEY DETAILS</p1>
+  
+  <p1 id="l9">START DATE</p1>
+  <input type="text" id="t10"name="start_date" placeholder="dd-mm-yyyy">
+  
+  <p1 id="l10">END DATE</p1>
+  <input type="text" id="t11"name="end_date" placeholder="dd-mm-yyyy">
+
+  <p1 id="extra2">NEAREST RELATIVE DETAILS</p1>
+  
+   <p1 id="l11">  NAME </p1>
+  <input type="text" id="t12" name="relative_name" placeholder="Name">
+  
+  <p1 id="l12">AADHAR_NO</p1>
+  <input type="text" id="t13"name="pma" placeholder="Aadhar">
+ 
+   <p1 id="l13">ADDRESS</p1>
+  <input type="text" id="t14"name="nr_address" placeholder="Address">
+  
+  <p1 id="l14">PHONE</p1>
+  <input type="text" id="t15"name="nr_phone" placeholder="">
+  
+  <p1 id="l15">STATE</p1>
+  <input type="text" id="t16"name="nr_state" placeholder="">
+  
+  <input name="submit" id="b1" type="submit" value="submit">
+  
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery.cslider.js"></script>
+<script type="text/javascript">
+	$(function() {
+	
+		$('#da-slider').cslider({
+			autoplay	: true,
+			bgincrement	: 450
+		});
+	
+	});
+</script>
+
+</body>
+</html>

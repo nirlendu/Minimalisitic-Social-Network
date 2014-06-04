@@ -1,0 +1,424 @@
+body{
+	background-image: url("../img/body-bg.png");
+}
+
+
+hr{
+	border-top: 1px solid #dcdcdc;
+	border-bottom: 1px solid #f6f6f6;
+}
+
+p{
+	color: #666;
+}
+
+/**************************************
+** Navigation Bar style code       ****
+**************************************/
+
+.navigation{
+	background-color: #2d3538;
+	width: 100%;
+}
+
+.navbar .btn-navbar{
+	background-image: none;
+	filter: none;
+	
+	background: #2d3538;
+	margin-top: 15px;
+}
+
+.navbar-inner{
+	border-radius: 0px;
+	
+	background-image: none;
+	filter: none;
+	
+	background: #2d3538;
+	border: none;
+	box-shadow: none;
+}
+
+
+
+.navbar .nav > li > a{
+	color: #8b8d8c;
+	text-shadow: none;
+	background-color: #2d3538;
+	margin-top: 15px;
+	font-size: 16px;
+	font-weight: normal;
+}
+
+
+
+.navbar .nav > li > a:hover{
+	color: #d9d9d9;
+	background-color: none;
+}
+
+/* changes color of active links*/
+.navbar .nav .active > a, .navbar .nav .active > a:hover {
+    background-color: #2d3538;
+	color: #d9d9d9;
+	box-shadow: none;
+}
+
+
+/* change color of active drop down menu or menu toggle link*/
+.navbar .nav .dropdown.open a.dropdown-toggle{
+	background-color: #2d3538;
+	color: #d9d9d9;
+}
+
+/* changes background color of drop down menu*/
+.navbar .nav .dropdown-menu{
+	background-image: none;
+	background-color: #2d3538;
+}
+
+/* changes background color of upwards arrow of drop down menu menu*/
+.navbar .nav .dropdown-menu:after {
+  border-bottom: 6px solid #2d3538 !important; /* change color here, modified for a black arrow */
+}
+
+/* changes link color of drop down menu*/
+.navbar .nav .dropdown.open a{
+	color: #8b8d8c;
+}
+
+/* changes link color of drop down menu on hover*/
+.navbar .nav .dropdown-menu > li > a:hover{
+	background-image: none;
+	background-color: #2d3538;
+	color: #d9d9d9;
+}
+
+
+.navbar .divider-vertical{
+	line-height: 40px;
+	
+}
+
+.navbar .brand{
+	margin-top: 15px;
+	margin-right: 15px;
+	text-shadow: none;
+	color: #e6e6e6;
+	font-size: 26px;
+}
+
+.navbar .brand:hover{
+	color: #fff;
+}
+
+.navbar .pull-right > li > a{
+	background-color: #64a7ca;
+	color: #fff;
+	margin-left: 10px;
+}
+
+.navbar .pull-right > li > a:hover{
+	background-color: #81b8d4;
+	color: #fff;
+}
+
+
+
+/*************************************
+ 		body style code          
+**************************************/
+
+
+.box{
+	text-align: center;
+}
+
+.box i{
+	font-size: 35px;
+	color: #333;
+}
+
+.teamSocial{
+	margin-top: 10px;
+}
+
+.teamSocial i{
+	font-size: 30px;
+	padding-left: 10px;
+	padding-right: 10px
+}
+
+.teamSocial i:hover{
+	color: #72bcd4;
+}
+
+.teamSocial a{
+	color: #333;
+}
+
+.teamSocial a:hover{
+	text-decoration: none;
+}
+
+
+/*************************************
+ 		Login box style code          
+**************************************/
+
+.loginBox{
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+
+
+}
+
+.loginBox .title{
+	background-color: #f7f7f7;
+	padding: 15px;
+	border-bottom: 1px solid #ddd;
+	color: #bbbbbb;
+	font-size: 20px;
+	text-align: center;
+}
+
+.loginBox form{
+	margin-top: 15px;
+	margin-left: 25%;
+	color: #666;
+	padding-bottom: 10px;
+}
+
+/*************************************
+ 		Pricing Table style code          
+**************************************/
+
+.table{
+	margin-top: 60px;
+	margin-bottom: 80px;
+}
+
+.table tr td{
+	text-align: center;
+	padding-top: 105px;
+	padding-bottom: 10px;
+}
+
+.table h3{
+	font-weight: normal;
+	font-size: 26;
+}
+
+.table i{
+	font-size: 40px;
+	color: #71858c;
+}
+
+.basicTable td{
+	border-color: #666;
+}
+
+.basicHeader{
+	background-color: #4f5d62;
+	color: #f2f2f2;
+}
+
+.basicBody{
+	background-color: #72868d;
+}
+
+.premTable td{
+	border-color: #71858c;
+}
+
+.premHeader{
+	background-color: #2d3538;
+	color: #f2f2f2;
+}
+
+.premBody{
+	background-color: #505e64;
+}
+
+.table{
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5ms ease-in-out;
+	-ms-transition: all 0.5ms ease-in-out;
+	-o-transition: all 0.5ms ease-in-out;
+	transition: all 0.5ms ease-in-out;
+}
+
+.table:hover{
+	-webkit-box-shadow: 2px 5px 30px rgba(53, 50, 50, 1);
+	-moz-box-shadow:    2px 5px 30px rgba(53, 50, 50, 1);
+	box-shadow:         2px 5px 30px rgba(53, 50, 50, 1);
+}
+
+.table-bordered{
+	border-color: #666;
+}
+
+
+/*************************************
+ 		coming soon page style code          
+**************************************/
+
+.comingSoon{
+	margin-left: 120px;
+}
+
+.time{
+	margin-left: 60px;
+	margin-top: 20px;
+}
+
+.timeBox{
+	border: 1px solid #ddd;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+
+.subscribe{
+	margin-top: 50px;
+	margin-left: 90px;
+}
+
+.comingSoonFollow{
+	font-size: 35px;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	margin-left: 34%;
+}
+
+.comingSoonFollow i{
+	padding-left: 15px;
+}
+
+.comingSoonFollow i:hover{
+	color: #2f96b4;
+}
+
+.comingSoonFollow a{
+	color: #333333;
+}
+
+.comingSoonFollow a:hover{
+	text-decoration: none;
+}
+
+
+/*************************************
+ 		404 Page style code          
+**************************************/
+
+._404Heading{
+	margin-left: 30%;
+	margin-top: 30px;
+}
+
+._404Link{
+	margin-left: 40%;
+	margin-top: 80px;
+	font-size: 200px;
+	color: #ababab;
+}
+
+._404Error{
+	margin-top: 100px;
+	margin-left: 40%;
+	color: #ff4e4e;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+._404Home{
+	margin-top: 50px;
+	margin-left: 38%;
+}
+
+._404Home a:hover{
+	text-decoration: none;
+	color: #ababab;
+}
+
+/*************************************
+ 		Portfolio Page style code          
+**************************************/
+
+#portfolio .thumbnail{
+	background-color: #f7f7f7;
+	
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+#portfolio .thumbnails{
+	text-align: center;
+}
+
+#portfolio .thumbnail:hover{
+	-webkit-box-shadow: 1px 1px 30px rgba(49, 50, 50, 1);
+	-moz-box-shadow:    1px 1px 30px rgba(49, 50, 50, 1);
+	box-shadow:         1px 1px 30px rgba(49, 50, 50, 1);
+}
+
+
+ /************************************
+*** footer style code          ****
+************************************/
+
+.footer{
+	background-color: #2d3538;
+	border-top: 1px solid #ddd;
+	color: #666;
+}
+
+.footer h4{
+	color: #617379;
+	font-weight: normal;
+}
+
+.footer hr{
+	border-top: 1px solid #1c2022;
+	border-bottom: 1px solid #3e4a4e;
+	margin:0px;
+	padding:0px;
+	margin-bottom: 5px;
+}
+
+.footer i{
+	color: #ddd;
+}
+
+.footer a{
+	color: #666;
+}
+
+.footer a:hover{
+	text-decoration: none;
+	color: #ddd;
+}
+
+.footer .social{
+	margin-top: 15px;
+}
+
+.footer .social i{
+	font-size: 40px;
+	padding-left: 15px;
+	color: #666;
+}
+
+.footer .social i:hover{
+	color: #ddd;
+}
+
+
+
