@@ -6,9 +6,9 @@ $name = $_POST['name'];
 $password2 = $_POST['password2'];
 $UID=rand()%10000;
 if($password1!=$password2){
-	header("Location:signUp.html");
+	header("Location:../signUp.html");
 	}
 $check= new AccountsImp();
 $check->Add_User($email,$password1,$name);
-header("Location:signIn.html");
+header("Location:../signIn.html");
 ?>

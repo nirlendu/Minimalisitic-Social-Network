@@ -1,7 +1,7 @@
 <?php
 session_start();
 if($_SESSION['uid']){
-header("Location:Error.php");
+header("../php/Location:Error.php");
 }
 ?>
 <!DOCTYPE HTML>
@@ -118,15 +118,15 @@ position:absolute;
 	
 	<!-- slider files -->
 	
-	<link rel="stylesheet" type="text/css" href="css/slider.css" />
-    <script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+	<link rel="stylesheet" type="text/css" href="../../css/slider.css" />
+    <script type="text/javascript" src="../../js/modernizr.custom.28468.js"></script>
 	<link href='http://fonts.googleapis.com/css?family=Economica:700,400italic' rel='stylesheet' type='text/css'>
 	
 	<!-- end of slider files -->
 	
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="../../css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="../../css/font-awesome.css"/>
+	<link rel="stylesheet" type="text/css" href="../../css/style.css"/>
 	
 <head>
 <body>
@@ -139,7 +139,7 @@ position:absolute;
 							<div class="navbar-inner">
 								<a class="brand" href="index.html">State Tourism Portal <i class="icon-leaf"></i></a>
 								<ul class="nav">
-									<li><a href="index.html"><i class="icon-home"></i> Home</a></li>
+									<li><a href="../../index.html"><i class="icon-home"></i> Home</a></li>
 									<li><a href="about.html"><i class="icon-list-ul"></i> About</a></li>
 									<li><a href="instruction.html"><i class="icon-list-ul"></i> Instructions</a></li>
 									<li><a href="contact.html"><i class="icon-phone"></i> Contact</a></li>
@@ -172,7 +172,7 @@ position:absolute;
 
 	<div id="abc">	
 	 <p1 id="extra1">LOGIN AS ADMIN</p1>
-	 <form method="post" action="Admin_Auth.php">
+	 <form method="post" action="../php/Admin_Auth.php">
 	 <p1 id="l1">Email</p1>
 	 <input type="text"  id= "t1" placeholder="Type here..." name="a_email">
 	 
@@ -186,7 +186,7 @@ position:absolute;
 	<div id="abc1">	
 		<p1 id="extra1">USER REGISTRATION</p1>
 	 	<p1 id="l1">Email</p1>
-		<form method="post" action="User_Auth.php">
+		<form method="post" action="../php/User_Auth.php">
 	 	<input type="text"  id= "t1" placeholder="Type here..." name="email"/>
 	 
 	 	<p1 id="l2">Password</p1>

@@ -14,6 +14,6 @@ $_SESSION['uid']=$check->GetUserID($u_email,$u_password);
 header("Location:Profile.php?VID=".$_SESSION['uid']);
 }
 else{
-header("Location:signIn.html");
+header("Location:../html/signIn.html");
 }
 ?>
